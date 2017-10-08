@@ -1,6 +1,6 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +21,45 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+    .fileUpload input.upload {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+.deleteDiv {
+    position: relative;
+    top: -160px;
+    left: 130px;
+    width: 30px;
+    height: 30px;
+}
+
+.imageBlock {
+    display: inline-block;
+}
+
+.thumb {
+    width: 159px;
+    height: 159px;
+}
+
+.deleteIcon {
+    width: 30px;
+    height: 30px;
 }
